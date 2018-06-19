@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="#FFF"> 
+
+	<include 
+	    android:id="@+id/actioner"
+	    android:layout_alignParentTop="true"
+		layout="@layout/header_viewsong"/>
+	
+	<ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+        	android:layout_below="@+id/actioner"
+        	android:layout_above="@+id/adView"
+        	android:id="@+id/scrollview">
+        	
+		<TextView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="가사 로딩 중"
+    		android:gravity="center_horizontal"
+		    android:textColor="#000"
+		    android:id="@+id/lyrics_text"
+		    />
+		
+	</ScrollView>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:id="@+id/adView"		
+        android:layout_above="@+id/buttons">
+	  	<com.google.ads.AdView android:id="@+id/adViewer"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+	                ads:adUnitId="@string/admobBID"
+					ads:adSize="BANNER"
+	                ads:loadAdOnCreate="true"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_above="@+id/seekbar"
+        android:id="@+id/buttons"
+        android:background="#181818"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+	>
+		<ImageButton 
+			android:id="@+id/button_play" 
+			android:src="@drawable/ic_media_play" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    		android:scaleType="fitXY" 
+    		android:cropToPadding="false"
+	        android:gravity="center_horizontal"
+		/>
+		
+		<Button	
+			android:id="@+id/download"
+	        android:layout_width="wrap_content"
+	        android:gravity="center_vertical|center_horizontal" 
+			android:text="노래 다운로드"
+			android:layout_height="wrap_content"
+		/>
+		
+		<Button	
+			android:id="@+id/share"
+	        android:layout_width="wrap_content"
+	        android:gravity="center_vertical|center_horizontal" 
+			android:text="공유"
+			android:layout_height="wrap_content"
+		/>
+		
+	</LinearLayout>
+		    	
+	<LinearLayout
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        
+        android:gravity="center_horizontal"
+        android:background="#181818"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/seekbar"
+	>	
+		
+		<SeekBar 
+			android:id="@+id/progress_bar"  
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+       		android:layout_gravity="center_horizontal|bottom"
+			style="?android:attr/progressBarStyleHorizontal"
+		/>
+	
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<com.euroasiamp3.layout.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#FFF" >
+    <!--  Top 10 Button -->
+    <Button
+        android:id="@+id/btn_topten"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/db_top"
+        android:text="@string/btn_topten_name" />
+ 
+    <!--  Search Button -->
+    <Button
+        android:id="@+id/btn_search"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/db_search"
+        android:text="@string/btn_search_name" />
+ 
+    <!--  Downloads Button -->
+    <Button
+        android:id="@+id/btn_downloads"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/db_downloads"
+        android:text="@string/btn_downloads_name" />
+ 
+    <!--  Rate Button -->
+    <Button
+        android:id="@+id/btn_rate"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/db_rate"
+        android:text="@string/btn_rate_name" />
+ 
+    <!--  Free Apps Button -->
+    <Button
+        android:id="@+id/btn_freeapps"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/db_offers"
+        android:text="@string/btn_offers_name" />
+ 
+    <!--  Share App Button -->
+    <Button
+        android:id="@+id/btn_share"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/db_share"
+        android:text="@string/btn_share_name" />
+ 
+</com.euroasiamp3.layout.DashboardLayout>

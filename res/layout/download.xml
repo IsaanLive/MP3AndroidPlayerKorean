@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:background="#FFF" > 
+    
+	<include 
+	    android:id="@+id/actioner"
+	    android:layout_alignParentTop="true"
+		layout="@layout/header" />
+	
+	<ListView 
+	    android:id="@+android:id/list" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:cacheColorHint="#FFF"
+    	android:background="#FFF"
+		android:layout_below="@+id/actioner"
+	    android:layout_above="@+id/pager"
+	/>
+	
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:gravity="center"
+	    android:layout_above="@+id/adView"
+		android:id="@+id/pager"
+		android:background="@drawable/shape_background_seperator"
+	>
+		<TextView
+			android:text="Total DL"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+        	android:layout_alignParentLeft="true"
+        	android:gravity="center_vertical"
+        	android:layout_centerInParent="true"
+        	android:id="@+id/totaldls"
+		/>
+					
+		<Button	
+			android:id="@+id/clearall"
+			android:layout_width="wrap_content"
+			android:text="모두 지우기"
+			android:layout_height="fill_parent"
+			android:enabled="true"
+        	android:layout_alignParentRight="true" 
+        	android:layout_centerInParent="true"
+		/>
+	</RelativeLayout>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:id="@+id/adView"		
+	    android:layout_alignParentBottom="true">
+	  	<com.google.ads.AdView android:id="@+id/adViewer"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+	                ads:adUnitId="@string/admobBID"
+					ads:adSize="BANNER"
+	                ads:loadAdOnCreate="true"/>
+	</LinearLayout>
+</RelativeLayout>
