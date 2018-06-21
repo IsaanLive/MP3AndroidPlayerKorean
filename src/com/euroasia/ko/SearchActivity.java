@@ -1,4 +1,4 @@
-package com.euroasia.ko;
+package com.euroasia.ko; 
 
 import java.io.BufferedReader;
 import java.io.IOException;
