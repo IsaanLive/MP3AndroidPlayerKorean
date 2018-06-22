@@ -30,11 +30,16 @@ Android API를 선택하고 설치 패키지를 클릭하십시오.
 Eclipse 다운로드 및 내용 추출
 https://www.eclipse.org/downloads/packages/
 
-<h2>5) Installing the ADT Plugin For Eclipse</h2>
+<h2>5) Eclipse 용 ADT 플러그인 설치</h2>
 1) Eclipse를 시작한 다음 도움말> 새 소프트웨어 설치 ...를 선택하십시오.
 2. 오른쪽 상단의 추가를 클릭합니다.
 3. 표시되는 저장소 추가 대화 상자에서 이름에 대해 "ADT Plugin"을 입력하고 위치에 대해 다음 URL을 입력하십시오.
 https://dl-ssl.google.com/android/eclipse/
 4. 확인을 클릭하십시오.
 
+<h2>6) 응용 프로그램 가져 오기</h2>
+이제 당신은 일식에 들어가는 모든 일을 끝내고 파일을 클릭 한 다음 가져 오기를 선택하십시오
 
+<h2>7) 응용 프로그램 내보내기</h2>
+이제 응용 프로그램을 내보낼 시간입니다. 파일 선택 -> 내보내기 -> Android 애플리케이션 내보내기 -> 다음 ->
+이제 APP 선택
