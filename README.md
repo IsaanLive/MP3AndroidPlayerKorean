@@ -23,5 +23,5 @@ SDK 시작 패키지가 필요하므로 다운로드하십시오. 이제 설치�
 * 그 유형 다음에 "\ sdk \ tools"
 
 <h2>3) 안드로이드 SDK 설치</h2>
-![androidsdk](https://user-images.githubusercontent.com/8135354/41765587-b5a16776-762e-11e8-8938-210d64f878ad.jpg)
+![androidsdk](https://user-images.githubusercontent.com/8135354/41765650-e4033cc0-762e-11e8-908e-2f5da3ced33b.jpg)
 
