@@ -4,7 +4,7 @@
 요구 사항 :
 - Java JDK
 - Eclipse IDE
-- 안드로이드 ADT 이클립스 플러그인
+- 안드로이드 ADT 이클립스 플러그인<br />
 http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
 
 <h2>2) SDK 스타터 패키지 다운로드</h2>
