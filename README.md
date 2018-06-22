@@ -43,5 +43,4 @@ https://dl-ssl.google.com/android/eclipse/
 <h2>7) 응용 프로그램 내보내기</h2>
 이제 응용 프로그램을 내보낼 시간입니다. 파일 선택 -> 내보내기 -> Android 애플리케이션 내보내기 -> 다음 ->
 이제 APP 선택
-![screenshot_2018-06-21-08-30-35](https://user-images.githubusercontent.com/8135354/41693837-7952dece-7531-11e8-9bc3-41f3d8fe6cc5.png)
-![androidsdk](https://user-images.githubusercontent.com/8135354/41765650-e4033cc0-762e-11e8-908e-2f5da3ced33b.jpg)
+
