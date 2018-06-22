@@ -23,5 +23,18 @@ SDK 시작 패키지가 필요하므로 다운로드하십시오. 이제 설치�
 * 그 유형 다음에 "\ sdk \ tools"
 
 <h2>3) 안드로이드 SDK 설치</h2>
-![androidsdk](https://user-images.githubusercontent.com/8135354/41765650-e4033cc0-762e-11e8-908e-2f5da3ced33b.jpg)
+오픈 안드로이드 SDK 관리자
+Android API를 선택하고 설치 패키지를 클릭하십시오.
+
+<h2>4) Eclipse 설치하기</h2>
+Eclipse 다운로드 및 내용 추출
+https://www.eclipse.org/downloads/packages/
+
+<h2>5) Installing the ADT Plugin For Eclipse</h2>
+1) Eclipse를 시작한 다음 도움말> 새 소프트웨어 설치 ...를 선택하십시오.
+2. 오른쪽 상단의 추가를 클릭합니다.
+3. 표시되는 저장소 추가 대화 상자에서 이름에 대해 "ADT Plugin"을 입력하고 위치에 대해 다음 URL을 입력하십시오.
+https://dl-ssl.google.com/android/eclipse/
+4. 확인을 클릭하십시오.
+
 
